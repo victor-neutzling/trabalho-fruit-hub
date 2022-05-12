@@ -1,0 +1,31 @@
+@media screen and (min-width: 1400px) {
+  html {
+    width: 418px;
+  }
+}
+
+.loading-screen-image {
+  text-align: center;
+}
+
+.loading-screen-image img {
+  margin-top: 75%;
+}
+
+.title-box {
+  background-color: #ffa451;
+  text-align: center;
+  padding: 8px;
+  margin: 0 25%;
+  border-radius: 18px 0 18px 0;
+  -webkit-box-shadow: 0px -30px 60px rgba(32, 32, 32, 0.05);
+          box-shadow: 0px -30px 60px rgba(32, 32, 32, 0.05);
+}
+
+.title-box h1 {
+  font-family: "Bad Script", cursive;
+  color: #FFFFFF;
+  font-size: 24px;
+  letter-spacing: -0.02em;
+}
+/*# sourceMappingURL=style.css.map */
