@@ -63,6 +63,9 @@
         }
     }
     a{
+        font-family: $main-font;
+        color: $secondary-white;
+        text-decoration: none;
         .confirm-button{
             background-color: $primary-orange;
             padding: 20px;
@@ -70,11 +73,8 @@
             margin-top: 15%;
             border-radius: 10px;
             width: 75%;
-            h2{
-                font-family: $main-font;
-                color: $secondary-white;
-                text-decoration: none; //not removing the underscore for whatever reason
-            }
+            
+            
             &:hover{
                 
             }

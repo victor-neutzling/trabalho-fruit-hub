@@ -193,6 +193,9 @@ body{
                 }
             }
             margin-left: 23px;
+            a{
+                
+                text-decoration: none;
             .hottest-item1{
                 background-color: #fffcf2;
                     margin-right: 16px;
@@ -202,6 +205,7 @@ body{
                     box-shadow: 0px 30px 60px rgba(32, 32, 32, 0.05);
                     border-radius: 16px;
                     transition: .12s;
+                    margin-bottom: 29px;
                     &:active{
                         background-color: #F1eFF6;
                     }
@@ -222,7 +226,7 @@ body{
                         .item-title{
                             font-size: 13px;
                             color: $title-color-blue;
-                            text-decoration: dashed;
+                            
                         }
                         .item-price{
                             display: flex;
@@ -245,7 +249,7 @@ body{
                             }
                         }
                     }
-            }
+            }}
             .hottest-item2{
                 background-color: #FEF4F4;
                     margin-right: 16px;

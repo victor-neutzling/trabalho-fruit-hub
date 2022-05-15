@@ -95,6 +95,12 @@
   outline: none;
 }
 
+#menu a {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 #menu a .confirm-button {
   background-color: #ffa451;
   padding: 20px;
@@ -102,12 +108,6 @@
   margin-top: 15%;
   border-radius: 10px;
   width: 75%;
-}
-
-#menu a .confirm-button h2 {
-  font-family: "Roboto", sans-serif;
-  color: #ffffff;
-  text-decoration: none;
 }
 
 body {
@@ -359,7 +359,11 @@ body main #itemlist .titles .hottest-title-unselected {
   color: #253f66;
 }
 
-body main #itemlist .hottest-item1 {
+body main #itemlist a {
+  text-decoration: none;
+}
+
+body main #itemlist a .hottest-item1 {
   background-color: #fffcf2;
   margin-right: 16px;
   margin-top: 22px;
@@ -370,36 +374,35 @@ body main #itemlist .hottest-item1 {
   border-radius: 16px;
   -webkit-transition: .12s;
   transition: .12s;
+  margin-bottom: 29px;
 }
 
-body main #itemlist .hottest-item1:active {
+body main #itemlist a .hottest-item1:active {
   background-color: #F1eFF6;
 }
 
-body main #itemlist .hottest-item1 .dish {
+body main #itemlist a .hottest-item1 .dish {
   margin-left: 38px;
   margin-top: 19px;
 }
 
-body main #itemlist .hottest-item1 .heart {
+body main #itemlist a .hottest-item1 .heart {
   float: right;
   margin-top: 16px;
   margin-right: 16px;
 }
 
-body main #itemlist .hottest-item1 .item-description {
+body main #itemlist a .hottest-item1 .item-description {
   margin-left: 16px;
   margin-top: 13px;
 }
 
-body main #itemlist .hottest-item1 .item-description .item-title {
+body main #itemlist a .hottest-item1 .item-description .item-title {
   font-size: 13px;
   color: #27214d;
-  -webkit-text-decoration: dashed;
-          text-decoration: dashed;
 }
 
-body main #itemlist .hottest-item1 .item-description .item-price {
+body main #itemlist a .hottest-item1 .item-description .item-price {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -409,7 +412,7 @@ body main #itemlist .hottest-item1 .item-description .item-price {
   gap: 36px;
 }
 
-body main #itemlist .hottest-item1 .item-description .item-price div {
+body main #itemlist a .hottest-item1 .item-description .item-price div {
   margin-top: 13px;
   font-size: 13px;
   color: #F08626;
@@ -418,13 +421,13 @@ body main #itemlist .hottest-item1 .item-description .item-price div {
   display: flex;
 }
 
-body main #itemlist .hottest-item1 .item-description .item-price div img {
+body main #itemlist a .hottest-item1 .item-description .item-price div img {
   width: 16px;
   height: 12.8px;
   margin-right: 4px;
 }
 
-body main #itemlist .hottest-item1 .item-description .item-price .plus {
+body main #itemlist a .hottest-item1 .item-description .item-price .plus {
   margin-top: 8px;
   margin-right: 16px;
 }
@@ -563,5 +566,170 @@ body main #itemlist .hottest-item3 .item-description .item-price div img {
 body main #itemlist .hottest-item3 .item-description .item-price .plus {
   margin-top: 8px;
   margin-right: 16px;
+}
+
+#additem {
+  display: flexbox;
+  background-color: #ffa451;
+  padding: 64px 24px;
+  padding-bottom: 32px;
+}
+
+#additem .back-btn {
+  width: 75px;
+  height: 32px;
+  white-space: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFFFFF;
+  border-radius: 100px;
+}
+
+#additem .back-btn img {
+  margin: 6px 4px;
+  margin-left: 8px;
+  width: 10px;
+  height: 20px;
+}
+
+#additem .back-btn h1 {
+  font-family: "Roboto", sans-serif;
+  color: #27214d;
+  font-size: 12px;
+  margin: 8px;
+  margin-top: 10px;
+  margin-left: 0;
+}
+
+#additem img {
+  display: block;
+  height: 176px;
+  width: 176px;
+  margin: 0 auto;
+}
+
+main #title-and-price {
+  border-radius: 20px;
+  display: block;
+  margin: 0 24px;
+  margin-top: 40px;
+  font-family: "Roboto", sans-serif;
+  color: #27214d;
+  font-size: 24px;
+}
+
+main #title-and-price .price-and-quantity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 24px;
+}
+
+main #title-and-price .price-and-quantity .quantity {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main #title-and-price .price-and-quantity .quantity h1 {
+  margin: 2px 24px;
+}
+
+main #title-and-price .price-and-quantity .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main #title-and-price .price-and-quantity .price h1 {
+  margin-top: 2px;
+}
+
+main #title-and-price .price-and-quantity .price img {
+  width: 20px;
+  height: 16px;
+  margin-top: 6.5px;
+  margin-right: 5px;
+}
+
+main #title-and-price .line {
+  border: 1px solid #F3F3F3;
+  margin-top: 41px;
+  width: 100%;
+}
+
+main #description {
+  margin: 16px 24px;
+}
+
+main #description h1 {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: #27214d;
+}
+
+main #description .combo-items {
+  display: flexbox;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+main #description .combo-items .combo-item {
+  font-family: "Roboto", sans-serif;
+  color: #403e3e;
+  font-size: 12px;
+  white-space: nowrap;
+  float: left;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  padding: 6px 8px;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+main #description .line {
+  border: 1px solid #F3F3F3;
+}
+
+main #description p {
+  margin-top: 10px;
+  color: #333333;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+footer .footer-content {
+  margin: 0 24px;
+  margin-top: 43px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer-content div {
+  background-color: #ffa451;
+  border-radius: 10px;
+  padding: 14px 58px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+}
+
+footer .footer-content div a {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
