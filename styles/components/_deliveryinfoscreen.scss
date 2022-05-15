@@ -1,0 +1,130 @@
+@import '../abstract/variables';
+.html-pg7{
+    background-color: #e5e5e5;
+}
+
+.screen-7-body3{
+    
+    width: 375px;
+    background-color: #e5e5e5;
+    .exit-button{
+        background-color: #ffffff;
+        border-radius: 100px;
+        margin-left: 303px;
+        margin-top: 24px;
+        margin-right: 24px;
+        width: 48px;
+        height: 48px;
+        box-shadow: //only shows if the resolution is stretched farther than 450px
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+         0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+        
+    }
+    .screen-7-body{
+        background-color: #ffffff;
+        box-shadow: //only shows if the resolution is stretched farther than 450px]
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+        display: flexbox;
+        margin-top: 16px;
+        .main-block{
+            font-family: $main-font;
+            margin: 0 24px;
+            padding-top: 32px;
+            padding-bottom: 24px;
+            display: block;
+            margin-bottom: 40px;
+            
+            .text-and-input{
+                
+                h1{
+                    margin-bottom: 17px;
+                    color: $title-color-blue;
+                }
+                input{
+                    background-color: #f7f5f5;
+                    border: none;
+                    border-radius: 10px;
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding: 16px;
+                    margin-bottom: 16px;
+                    font-size: 16px;
+                    line-height: 24px;
+                    &:focus{
+                        outline: none;
+                    }
+                }
+            }
+            .pay-options{
+                display: flex;
+                justify-content: space-between;
+                color: $primary-orange;
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: 500;
+                a{
+
+                    color: $primary-orange;
+                    .btn{
+                        background-color: #fef6f0;
+                        border-radius: 10px;
+                        h1{
+                            padding: 16px 24px;
+                        }
+                    }
+                }
+            }
+            .date-cvv{
+                display: flex;
+                justify-content: space-between;
+                gap: 27px;
+                font-size: 16px;
+                line-height: 24px;
+                font-weight: 500;
+                color: $title-color-blue;
+                .inp{
+                    border-radius: 10px;
+                    h1{
+                        margin-bottom: 17px;
+                    }
+                    input{
+                        font-size: 16px;
+                        border-radius: 10px;
+                        background-color: #f7f5f5;
+                        outline: none;
+                        border: none;
+                        width: 100%;
+                        box-sizing: border-box;
+                        padding: 16px;
+                    }
+                }
+            }
+            a{
+                color: white;
+                text-decoration: none;
+                
+                .complete-order-btn{
+                    background-color: $primary-orange;
+                    text-align: center;
+                    margin: 0 66px;
+                    margin-top: 32px;
+                    padding: 16px 0;
+                    border-radius: 10px;
+                    h1{
+                        font-size: 16px;
+                        //line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+@import '../abstract/variables';
+
+#order-taken{
+    text-align: center;
+    margin-top: 164px;
+    font-family: $main-font;
+    .main-title{
+        font-size: 32px;
+        color: $title-color-blue;
+        line-height: 48px;
+        margin-top: 40px;
+        margin-bottom: 2px;
+    }
+    p{
+        margin: 0 64px;
+        line-height: 24px;
+        font-size: 16px;
+        color: #111111;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        .track-order-btn{
+            background-color: $primary-orange;
+            margin: 0 84px;
+            margin-top:56px;
+            padding: 4px;
+            border-radius: 10px;
+            h1{
+                white-space: nowrap;
+                margin: 16px;
+            }
+        }
+    }
+    .a2{
+        color: $primary-orange;
+        text-decoration: none;
+        .continue-shopping-btn{
+            background-color: #fcf6f0;
+            margin: 0 96px;
+            margin-top:24px;
+            padding: 4px;
+            border-radius: 10px;
+            h1{
+                white-space: nowrap;
+                margin: 16px;
+            }
+        }
+    }
+
+}
