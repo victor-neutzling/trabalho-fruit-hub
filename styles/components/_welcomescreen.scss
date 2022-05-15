@@ -1,0 +1,83 @@
+@import '../abstract/variables';
+
+#display{
+    display: inline-block;
+    background-color: $primary-orange;
+    padding-top: 105%;
+    width: 100%;
+    text-align: center;
+    .scattered-fruit{
+        margin-top: -75%;
+        position: absolute;
+        text-align: left;
+        margin-left: 75%;
+        img{
+            width: 3.5rem;
+        }
+    }
+    .fruit-basket{
+        position: absolute;
+        margin-top: -70%;
+        width: 100%;
+    }
+    .shadow{
+        width: 100%;
+        margin-bottom: 10%;
+    }
+}
+#menu{
+    background-color: $secondary-white;
+    padding-bottom: 5%;
+    text-align: center;
+    .menu-items{
+        text-align: left;
+        
+        padding-top: 2.5em;
+        line-height: 1.5em;
+        
+        h1{
+            margin-left: 1.5em;
+            font-family: $main-font;
+            font-weight: bold;
+            color: $title-color-blue;
+            margin-bottom: 0.5em;
+        }
+        p{
+            margin-left: 1.5em;
+            font-family: $main-font;
+            color: $paragraph-blue;
+        }
+        input{
+            display: block;
+            background-color: #f7f5f5;
+            padding: 20px;
+            margin: 0 auto;
+            border-radius: 10px; 
+            border: none;
+            width: 75%;
+            font-family: $main-font;
+            &:focus{
+                border: none;
+                outline: none;
+            }
+        }
+    }
+    a{
+        .confirm-button{
+            background-color: $primary-orange;
+            padding: 20px;
+            margin: 0 auto;
+            margin-top: 15%;
+            border-radius: 10px;
+            width: 75%;
+            h2{
+                font-family: $main-font;
+                color: $secondary-white;
+                text-decoration: none; //not removing the underscore for whatever reason
+            }
+            &:hover{
+                
+            }
+        }
+    }
+}
