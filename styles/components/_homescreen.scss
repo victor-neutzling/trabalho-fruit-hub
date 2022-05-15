@@ -98,6 +98,7 @@ body{
         //width: 100%;
         padding: 0 20px;
         .category{
+            white-space: nowrap; //prevents text from wrapping
             margin: 4px;
             padding: 8px 16px;
             font-family: $main-font;
@@ -192,7 +193,60 @@ body{
                 }
             }
             margin-left: 23px;
-            .hottest-item{
+            .hottest-item1{
+                background-color: #fffcf2;
+                    margin-right: 16px;
+                    margin-top: 22px;
+                    width: 140px;
+                    height: 150px;
+                    box-shadow: 0px 30px 60px rgba(32, 32, 32, 0.05);
+                    border-radius: 16px;
+                    transition: .12s;
+                    &:active{
+                        background-color: #F1eFF6;
+                    }
+                    .dish{
+                        margin-left: 38px;
+                        margin-top: 19px;
+                        
+                    }
+                    .heart{
+                        //position: absolute;
+                        float: right;
+                        margin-top: 16px;
+                        margin-right: 16px;
+                    }
+                    .item-description{
+                        margin-left: 16px;
+                        margin-top: 13px;
+                        .item-title{
+                            font-size: 13px;
+                            color: $title-color-blue;
+                            text-decoration: dashed;
+                        }
+                        .item-price{
+                            display: flex;
+                            justify-content: space-evenly;
+                            gap: 36px;
+                            div{
+                                margin-top: 13px;
+                                font-size: 13px;
+                                color: #F08626;
+                                display: flex;
+                                img{
+                                   width: 16px; 
+                                   height: 12.8px;
+                                   margin-right: 4px;
+                                }
+                            }
+                            .plus{
+                                margin-top: 8px;
+                                margin-right:16px;
+                            }
+                        }
+                    }
+            }
+            .hottest-item2{
                 background-color: #FEF4F4;
                     margin-right: 16px;
                     margin-top: 22px;
@@ -210,6 +264,7 @@ body{
                         
                     }
                     .heart{
+                        //position: absolute;
                         float: right;
                         margin-top: 16px;
                         margin-right: 16px;
@@ -243,6 +298,58 @@ body{
                         }
                     }
             }
+            .hottest-item3{
+                background-color: #F1eFF6;
+                    margin-right: 16px;
+                    margin-top: 22px;
+                    width: 140px;
+                    height: 150px;
+                    box-shadow: 0px 30px 60px rgba(32, 32, 32, 0.05);
+                    border-radius: 16px;
+                    transition: .12s;
+                    &:active{
+                        background-color: #F1eFF6;
+                    }
+                    .dish{
+                        margin-left: 38px;
+                        margin-top: 19px;
+                        
+                    }
+                    .heart{
+                        //position: absolute;
+                        float: right;
+                        margin-top: 16px;
+                        margin-right: 16px;
+                    }
+                    .item-description{
+                        margin-left: 16px;
+                        margin-top: 13px;
+                        .item-title{
+                            font-size: 13px;
+                            color: $title-color-blue;
+                        }
+                        .item-price{
+                            display: flex;
+                            justify-content: space-evenly;
+                            gap: 36px;
+                            div{
+                                margin-top: 13px;
+                                font-size: 13px;
+                                color: #F08626;
+                                display: flex;
+                                img{
+                                   width: 16px; 
+                                   height: 12.8px;
+                                   margin-right: 4px;
+                                }
+                            }
+                            .plus{
+                                margin-top: 8px;
+                                margin-right:16px;
+                            }
+                        }
+                    }
+            } 
         }
     }
 }
