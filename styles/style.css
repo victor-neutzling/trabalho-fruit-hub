@@ -1,3 +1,13 @@
+@import url("http://fonts.cdnfonts.com/css/tt-norms-pro");
+@import url("http://fonts.cdnfonts.com/css/tt-norms-pro");
+@import url("http://fonts.cdnfonts.com/css/tt-norms-pro");
+@import url("http://fonts.cdnfonts.com/css/tt-norms-pro");
+@import url("http://fonts.cdnfonts.com/css/tt-norms-pro");
+@import url("http://fonts.cdnfonts.com/css/tt-norms-pro");
+@import url("http://fonts.cdnfonts.com/css/tt-norms-pro");
+@import url("http://fonts.cdnfonts.com/css/tt-norms-pro");
+@import url("http://fonts.cdnfonts.com/css/tt-norms-pro");
+@import url("http://fonts.cdnfonts.com/css/tt-norms-pro");
 .loading-screen-image {
   text-align: center;
 }
@@ -24,38 +34,37 @@
 }
 
 #display {
-  display: inline-block;
   background-color: #ffa451;
-  padding-top: 105%;
-  width: 100%;
   text-align: center;
 }
 
 #display .scattered-fruit {
-  margin-top: -75%;
-  position: absolute;
-  text-align: left;
-  margin-left: 75%;
-}
-
-#display .scattered-fruit img {
-  width: 3.5rem;
+  padding-top: 131px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  margin-right: 43px;
 }
 
 #display .fruit-basket {
-  position: absolute;
-  margin-top: -70%;
-  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#display .fruit-basket img {
+  width: 301px;
+  height: 260px;
 }
 
 #display .shadow {
-  width: 100%;
-  margin-bottom: 10%;
+  padding-bottom: 34px;
 }
 
 #menu {
   background-color: #ffffff;
-  padding-bottom: 5%;
   text-align: center;
 }
 
@@ -67,7 +76,7 @@
 
 #menu .menu-items h1 {
   margin-left: 1.5em;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   font-weight: bold;
   color: #27214d;
   margin-bottom: 0.5em;
@@ -75,7 +84,7 @@
 
 #menu .menu-items p {
   margin-left: 1.5em;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   color: #5d577e;
 }
 
@@ -87,7 +96,7 @@
   border-radius: 10px;
   border: none;
   width: 75%;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
 }
 
 #menu .menu-items input:focus {
@@ -96,7 +105,7 @@
 }
 
 #menu a {
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   color: #ffffff;
   text-decoration: none;
 }
@@ -108,6 +117,7 @@
   margin-top: 15%;
   border-radius: 10px;
   width: 75%;
+  margin-bottom: 92px;
 }
 
 body {
@@ -138,7 +148,7 @@ body .main-header #navbar {
 
 body .main-header #navbar .options-icon {
   margin-top: 15px;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   color: #27214d;
   width: 60%;
 }
@@ -185,7 +195,7 @@ body .main-header #search-and-filter .search-bar {
 
 body .main-header #search-and-filter .search-bar input {
   float: left;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   background-image: url("../../images/magnifying-glass.png");
   background-repeat: no-repeat;
   background-position: left center;
@@ -195,7 +205,7 @@ body .main-header #search-and-filter .search-bar input {
   padding-left: 56px;
   border-radius: 10px;
   border: none;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   font-size: 16px;
   width: 100%;
   -webkit-transition: .12s;
@@ -237,7 +247,7 @@ body .category-selector .category {
   white-space: nowrap;
   margin: 4px;
   padding: 8px 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   color: #333333;
   background-color: #ffffff;
   -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05), 0px 0px 1px rgba(0, 0, 0, 0.25);
@@ -258,7 +268,7 @@ body main #itemlist {
 }
 
 body main #itemlist .recommended-combo {
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   font-size: 18px;
   color: #27214d;
 }
@@ -346,7 +356,7 @@ body main #itemlist .titles {
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   font-size: 16px;
 }
 
@@ -594,7 +604,7 @@ body main #itemlist .hottest-item3 .item-description .item-price .plus {
 }
 
 #additem .back-btn h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   color: #27214d;
   font-size: 12px;
   margin: 8px;
@@ -614,7 +624,7 @@ main #title-and-price {
   display: block;
   margin: 0 24px;
   margin-top: 40px;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   color: #27214d;
   font-size: 24px;
 }
@@ -668,7 +678,7 @@ main #description {
 
 main #description h1 {
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   color: #27214d;
 }
 
@@ -682,7 +692,7 @@ main #description .combo-items {
 }
 
 main #description .combo-items .combo-item {
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   color: #403e3e;
   font-size: 12px;
   white-space: nowrap;
@@ -724,7 +734,7 @@ footer .footer-content div {
   border-radius: 10px;
   padding: 14px 58px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   color: #FFFFFF;
 }
 
@@ -757,7 +767,7 @@ footer .footer-content div a {
   margin-bottom: 36px;
   margin-left: 24px;
   color: #27214d;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   font-size: 12px;
   border-radius: 100px;
 }
@@ -776,7 +786,7 @@ footer .footer-content div a {
 }
 
 #screen-6-and-10-header .screen-6-and-10-headers h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   font-size: 24px;
   color: #FFFFFF;
   display: block;
@@ -820,11 +830,11 @@ footer .footer-content div a {
   color: #333;
   line-height: 24px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
 }
 
 #basket-body #basket-items .basket-item .basket-item-stuff h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   color: #000000;
   font-size: 12px;
   font-weight: 300;
@@ -846,7 +856,7 @@ footer .footer-content div a {
 
 #basket-body #basket-items .basket-item .basket-item-stuff .price h3 {
   color: #27214d;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   font-size: 16px;
   margin-top: 3px;
 }
@@ -886,11 +896,11 @@ footer .footer-content div a {
   color: #333;
   line-height: 24px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
 }
 
 #basket-body #basket-items .basket-item2 .basket-item-stuff h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   color: #000000;
   font-size: 12px;
   font-weight: 300;
@@ -912,7 +922,7 @@ footer .footer-content div a {
 
 #basket-body #basket-items .basket-item2 .basket-item-stuff .price h3 {
   color: #27214d;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   font-size: 16px;
   margin-top: 3px;
 }
@@ -952,11 +962,11 @@ footer .footer-content div a {
   color: #333;
   line-height: 24px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
 }
 
 #basket-body #basket-items .basket-item3 .basket-item-stuff h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   color: #000000;
   font-size: 12px;
   font-weight: 300;
@@ -978,7 +988,7 @@ footer .footer-content div a {
 
 #basket-body #basket-items .basket-item3 .basket-item-stuff .price h3 {
   color: #27214d;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   font-size: 16px;
   margin-top: 3px;
 }
@@ -1004,7 +1014,7 @@ footer .footer-content div a {
 }
 
 #basket-body .checkout-footer .content h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   font-size: 14px;
   color: #333333;
   font-weight: 300;
@@ -1027,7 +1037,7 @@ footer .footer-content div a {
   margin-top: 4px;
   line-height: 32px;
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   color: #27214d;
 }
 
@@ -1045,7 +1055,7 @@ footer .footer-content div a {
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   color: #ffffff;
   margin: 14px 42px;
 }
@@ -1080,7 +1090,7 @@ footer .footer-content div a {
 }
 
 .screen-7-body3 .screen-7-body .main-block {
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   margin: 0 24px;
   padding-top: 32px;
   padding-bottom: 24px;
@@ -1191,7 +1201,7 @@ footer .footer-content div a {
 #order-taken {
   text-align: center;
   margin-top: 164px;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
 }
 
 #order-taken .main-title {
@@ -1273,7 +1283,7 @@ footer .footer-content div a {
   margin-top: 25px;
   line-height: 19px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   color: #333333;
   font-weight: 500;
 }
@@ -1309,7 +1319,7 @@ footer .footer-content div a {
   margin-top: 25px;
   line-height: 19px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   color: #333333;
   font-weight: 500;
 }
@@ -1350,7 +1360,7 @@ footer .footer-content div a {
   white-space: nowrap;
   line-height: 19px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   color: #333333;
   font-weight: 500;
 }
@@ -1359,7 +1369,7 @@ footer .footer-content div a {
   white-space: nowrap;
   line-height: 16px;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   color: #333333;
   font-weight: 300;
 }
@@ -1417,7 +1427,7 @@ footer .footer-content div a {
   white-space: nowrap;
   line-height: 19px;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "TT Norms Pro", sans-serif;
   color: #333333;
   font-weight: 500;
 }
